@@ -39,6 +39,19 @@
         </form>
         <div id="message" class="hidden"></div>
       </section>
+
+      <div class="activity-card">
+        <h4>{{ activity.name }}</h4>
+        <p>{{ activity.description }}</p>
+        <p><strong>Time:</strong> {{ activity.time }}</p>
+        <div class="participants-section">
+          <strong>Participants:</strong>
+          <ul class="participants-list">
+            <!-- Participants will be rendered here by app.js -->
+          </ul>
+        </div>
+        <!-- ...existing code for signup form... -->
+      </div>
     </main>
 
     <footer>
